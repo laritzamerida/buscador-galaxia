@@ -1,0 +1,54 @@
+body {
+  background-image: url(../imagen.jpg);
+  background-size: cover;
+  color: white;
+
+}
+
+
+
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  .contenedorcito {
+    width: 98%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: transform 0.2s;
+    color: black;
+    
+  
+  }
+
+  #contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 15px;
+  }
+  
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  h2 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  #description{
+    margin-top: 5px;
+    font-style: italic;
+  }
+  #date{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+  }
+  .footer{
+    color: white;
+  }
